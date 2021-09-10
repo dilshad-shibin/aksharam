@@ -1,0 +1,1075 @@
+/* ************************************************************
+******* :: INDEX OF CSS :: *******
+:: 1.0 WEB FONTS
+:: 2.0 IMPORT ALL CSS
+:: 3.0 GLOBAL CSS
+:: 4.0 COMMON CSS
+:: 5.0 PRELOADER CSS
+:: 6.0 SCROLL TO TOP AREA CSS
+:: 7.0 HEADER AREA CSS
+:: 8.0 WELCOME AREA CSS
+:: 9.0 ABOUT AREA CSS
+:: 10.0 FACILITIES AREA CSS
+:: 11.0 ROOMS AREA CSS
+:: 12.0 TESTIMONIALS AREA CSS
+:: 13.0 Book AREA CSS
+:: 14.0 FOOTER AREA CSS
+:: 15.0 FORM BOX AREA CSS
+:: 16.0 NEW CHANGE CSS
+:: 17.0 ABOUT PAGE 
+:: 18.0  DESTINATIONS PAGE 
+:: 19.0  FACILITIES PAGE 
+:: 20.0  CONTACT PAGE 
+:: 21.0  RESERVATION PAGE
+:: 22.0  POPUP AREA
+:: 23.0 TESTIMONIALS PAGE  
+:: 24.0 NEWS PAGE 
+:: 25.0 SINGLE NEWS PAGE
+:: 26.0 GALLERY PAGE CS
+:: 27.0 ABOUT HOTELS PAGE
+****************************** */
+
+/* ******************************
+:: 1.0 WEB FONTS
+****************************** */
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+
+/* font-family: 'Tangerine', cursive; */
+
+
+/* ******************************
+:: 2.0 IMPORT ALL CSS
+****************************** */
+@import url(bootstrap.min.css);
+@import url(et-line.css);
+@import url(icofont.min.css);
+@import url(all.min.css);
+@import url(animate.min.css);
+@import url(aos.css);
+@import url(owl.carousel.min.css);
+@import url(slick.css);
+@import url(jquery.fancybox.min.css);
+@import url(custom-animate.css);
+
+/* ******************************
+:: 3.0 GLOBAL CSS
+****************************** */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #777;
+}
+
+.main {
+    overflow: hidden;
+}
+
+section,
+.section {
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    padding: 0 5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    color: #1c144e;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #777;
+    margin-bottom: 0;
+}
+
+a {
+    color: #444;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+a,
+a:hover,
+a:focus,
+.btn:focus {
+    text-decoration: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ol li,
+ul li {
+    list-style: none;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.text-primary {
+    color: #2d3136 !important;
+}
+
+/* ******************************
+:: 4.0 COMMON CSS
+****************************** */
+.fw-3 {
+    font-weight: 300;
+}
+
+.fw-4 {
+    font-weight: 400;
+}
+
+.fw-5 {
+    font-weight: 500;
+}
+
+.fw-6 {
+    font-weight: 600;
+}
+
+.fw-7 {
+    font-weight: 700;
+}
+
+.op-5 {
+    opacity: 0.5;
+}
+
+.avatar-sm {
+    height: 3rem;
+    width: 3rem;
+}
+
+.avatar-md {
+    height: 4rem;
+    width: 4rem;
+}
+
+.avatar-lg {
+    height: 5rem;
+    width: 5rem;
+}
+
+.h-100vh {
+    height: 100vh;
+}
+
+.pos-abs-top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: auto;
+    bottom: auto;
+}
+
+.radius-100 {
+    border-radius: 100px !important;
+}
+
+.bg-img {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dsp-tc {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.owl-carousel .owl-item img {
+    width: auto;
+}
+
+.owl-prev:focus,
+.owl-next:focus {
+    outline: none;
+}
+
+.tooltip > .tooltip-inner {
+    background-color: #00cff2;
+    padding: 6px;
+}
+
+.tooltip-arrow,
+.tooltip.top .tooltip-arrow {
+    border-top-color: #00cff2;
+}
+
+.inner-wrapper {
+    min-height: 100vh;
+    width: 100%;
+}
+
+/*SECTION HEADING*/
+.section-heading {
+    margin-bottom: 60px;
+}
+
+.section-heading > h2 {
+    position: relative;
+}
+
+.section-heading > h2::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 70px;
+    bottom: -15px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+/*HEADINGS*/
+.headings span {
+    color: #444;
+    font-weight: 500;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    letter-spacing: 1px;
+    margin-left: -30px;
+}
+
+/*SECTION PADDING*/
+.pt_0 {
+    padding-top: 0;
+}
+
+.ptb_50 {
+    padding: 50px 0;
+}
+
+.ptb_80 {
+    padding: 80px 0;
+}
+
+.ptb_100 {
+    padding: 100px 0;
+}
+
+.ptb_120 {
+    padding: 120px 0;
+}
+
+.ptb_150 {
+    padding: 150px 0;
+}
+
+.ptb_180 {
+    padding: 180px 0;
+}
+
+.color-primary {
+    color: #007bff;
+}
+
+.color-secondary {
+    color: #e03737 !important;
+}
+
+
+/* ******************************
+:: 5.0 PRELOADER AREA CSS
+****************************** */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff !important;
+    z-index: 9999;
+}
+
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #9370DB;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+#loader:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #BA55D3;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+}
+
+#loader:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #FF00FF;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 767px) {
+    #loader {
+        width: 100px;
+        height: 100px;
+        margin: -50px 0 0 -50px;
+    }
+}
+
+/* ******************************
+:: 6.0 SCROLL TO TOP AREA CSS
+****************************** */
+#scrollUp {
+    position: fixed;
+    right: 1%;
+    bottom: 3%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 3px;
+    background-color: #195a62;
+    text-align: center;
+    cursor: pointer;
+    z-index: 500;
+    display: none;
+}
+
+#scrollUp > i {
+    font-size: 24px;
+    line-height: 38px;
+    display: block;
+    color: #fff;
+}
+
+#scrollUp svg{
+    color: #fff;
+    font-size: 18px;
+}
+
+#scrollUp:hover {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+}
+
+/* ******************************
+:: 7.0 HEADER AREA CSS
+****************************** */
+.hero-wrapper .svg-clipped {
+    -webkit-clip-path: url(#svgPath);
+    clip-path: url(#svgPath);
+    height: 100%;
+    z-index: -1;
+}
+
+.navbar {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    z-index: 999;
+    -webkit-transition: .3s;
+    transition: .3s;
+    background: #c5a10f;
+}
+
+.navbar .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.navbar .navbar-nav .nav-link-btn:hover{
+    color: #fff;
+    background-color: #144d5b;
+}
+
+.navbar.navbar-light .navbar-nav .nav-link {
+    color: #7e8085;
+}
+
+.navbar.navbar-light .navbar-nav .nav-link:hover,
+.navbar.navbar-light .navbar-nav .nav-link:focus,
+.navbar.navbar-light .navbar-nav .nav-link.active,
+.navbar.navbar-light .navbar-nav .nav-link.current-menu-item {
+    color: #2c2e30;
+}
+
+.navbar .navbar-brand-sticky {
+    display: none;
+}
+
+.navbar-sticky {
+    -webkit-transition: none;
+    transition: none;
+}
+
+.navbar-sticky-transitioned {
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.navbar-sticky-moved-up {
+    position: fixed;
+    top: 0;
+    background: #fff;
+    margin-top: -100px;
+}
+
+[data-theme=dark] .navbar-sticky-moved-up {
+    background: #01081f;
+    -webkit-box-shadow: 0 4px 25px rgba(30, 39, 69, 0.3), 0 1px 0px rgba(30, 39, 69, 0.4);
+    box-shadow: 0 4px 25px rgba(30, 39, 69, 0.3), 0 1px 0px rgba(30, 39, 69, 0.4);
+}
+
+.navbar-sticky-on {
+    margin-top: 0;
+    -webkit-transition: .3s;
+    transition: .3s;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px;
+}
+
+.navbar-sticky-on .navbar-brand-regular {
+    display: none;
+}
+
+.navbar-sticky-on .navbar-brand-sticky {
+    display: inline;
+}
+
+/*NAVBAR DARK*/
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffffe0;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link-btn {
+    background: #fff;
+    color: #333;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 1rem 2rem !important;
+}
+
+.navbar-dark .btn-outline {
+    color: #fff;
+}
+
+.navbar-dark.navbar-sticky-on .navbar-nav .nav-link {
+    color: #7e8085;
+    text-shadow: none;
+}
+
+.navbar-dark.navbar-sticky-on .navbar-nav .nav-link-btn{
+    background-color: #c5a10f;
+    color: #fff; 
+    margin-top: 5px;
+}
+
+.navbar-dark.navbar-sticky-on .navbar-nav .nav-link-btn:hover{
+    color: #fff !important;
+    background-color: #144d5b;
+}
+
+[data-theme=dark] .navbar-dark.navbar-sticky-on .navbar-nav .nav-link {
+    color: #e7eaee;
+}
+
+.navbar-dark.navbar-sticky-on .navbar-nav .nav-link:hover,
+.navbar-dark.navbar-sticky-on .navbar-nav .nav-link:focus,
+.navbar-dark.navbar-sticky-on .navbar-nav .nav-link.active,
+.navbar-dark.navbar-sticky-on .navbar-nav .nav-link.current-menu-item {
+    color: #144d5b;
+}
+.navbar-dark.navbar-sticky-on .navbar-nav .nav-link-btn:focus,
+.navbar-dark.navbar-sticky-on .navbar-nav .nav-link-btn.active,
+.navbar-dark.navbar-sticky-on .navbar-nav .nav-link-btn.current-menu-item {
+    color: #fff;
+}
+
+[data-theme=dark] .navbar-dark.navbar-sticky-on .navbar-nav .nav-link:hover,
+[data-theme=dark] .navbar-dark.navbar-sticky-on .navbar-nav .nav-link:focus,
+[data-theme=dark] .navbar-dark.navbar-sticky-on .navbar-nav .nav-link.active,
+[data-theme=dark] .navbar-dark.navbar-sticky-on .navbar-nav .nav-link.current-menu-item {
+    color: #D2D5DA;
+}
+
+.navbar-expand-lg .navbar-nav li:last-child{
+    margin-left: 10px;
+}
+
+/* ******************************
+:: 8.0 WELCOME AREA CSS
+****************************** */
+.welcome-area{
+    background-image: url(../img/banner/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+/* ******************************
+:: 9.0 ABOUT AREA CSS
+****************************** */
+/* @font-face {
+    font-family: "apple-cards-aseel";
+    src: url(../fonts/apple-cards-aeel-1.ttf);
+} */
+.about-content p{
+    color: #12587e;
+    font-family: 'Gayathri', sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.about-link{
+    margin-top: 55px;
+}
+
+.about-link a{
+    background-color: #ea5f4a;
+    color: #fff;
+    padding: 18px 60px;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.about-link a:hover{
+    color: #fff;
+    background-color: #c5a10f;
+}
+
+
+/* ******************************
+:: 11.0 PROGRAMSS AREA CSS
+****************************** */
+.pattern-pg{
+    background-image: url(../img/bg/slider.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -200px;
+    height: 750px;
+    width: 100%;
+    z-index: -1;
+}
+
+.pgm-head h1{
+    color: #2a2a2a;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.pgm-head{
+    margin-bottom: 100px;
+}
+
+.pgm-head h1::before{
+    position: absolute;
+    content: "";
+    background-color: #2f9331;
+    height: 4px;
+    width: 10%;
+    left: 50%;
+    bottom: -15px;
+    border-radius: 10px;
+    transform: translate(-50%,-50%);
+}
+
+.pgm-box{
+    background-color: #2f9331;
+    padding: 70px 50px 35px;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+}
+
+.pgm-image{
+    flex: 0 0 40%;
+    position: relative;
+}
+
+.pgm-content{
+    flex: 0 0 60%;
+    padding-left: 30px;
+}
+
+.pgm-image .number-img{
+    position: absolute;
+    background-image: url(../img/programs/01.png);
+    background-repeat: no-repeat;
+    height: 75px;
+    width: 65px;
+    bottom: 150px;
+}
+
+.pgm-image img{
+    position: relative;
+    left: 50px;
+    margin-top: -140px;
+}
+
+.pgm-content span{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.pgm-content h1{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 5px
+}
+
+.pgm-content span.sub-head{
+    text-transform: none;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.pgm-content ul{
+    margin-top: 30px;
+    margin-left: 16px;
+    margin-bottom: 30px;
+}
+
+.pgm-content ul li{
+    list-style: inherit;
+    color: #Fff;
+    padding-bottom: 20px;
+}
+
+.pgm-content ul li a{
+    color: #fff;
+    font-size: 18px;
+}
+
+.pgm-link a{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border: 1px solid #fff;
+    padding: 8px 12px;
+    transition: all .3s ease;
+}
+
+.pgm-link a:hover{
+    background-color: #ea5f4a;
+    border: 1px solid #fff;
+}
+
+/* ******************************
+:: 11.0 ROOMS AREA CSS
+****************************** */
+
+
+/* ******************************
+:: 12.0 TESTIMONIALS AREA CSS
+****************************** */
+
+
+
+
+/* ******************************
+:: 13.0 Book AREA CSS
+****************************** */
+
+
+/* ******************************
+:: 14.0 FOOTER AREA CSS
+****************************** */
+.footer-area {
+    background-color: #f0f0f0;
+}
+
+.copyright-area {
+    border-top: 1px solid #6767679e;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-area  .footer-items{
+    margin-top: 25px;
+}
+
+.footer-area  .footer-items ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-area  .footer-items ul li a{
+    font-size: 17px;
+}
+
+.footer-area .footer-items a:hover,
+.footer-area .footer-items a:focus,
+.footer-area .copyright-area a:hover,
+.footer-area .copyright-area a:focus {
+    color: #9b1b44 !important;
+}
+
+.footer-area .mail-social-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.footer-area .mail-social-icons a{
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.footer-area .mail-social-icons a:hover{
+    color: #9b1b44 !important;
+}
+
+.footer-area .mail-social-icons ul{
+    display: flex;
+}
+
+.footer-area .mail-social-icons ul li a{
+    font-size: 30px;
+}
+
+.copyright-area a img{
+    max-width: 100px;
+}
+
+/* ******************************
+:: 15.0 FORM BOX AREA CSS
+****************************** */
+
+/* ******************************
+:: 17.0 ABOUT PAGE 
+****************************** */
+
+/* ******************************
+:: 18.0  DESTINATIONS PAGE 
+****************************** */
+
+
+/* ******************************
+:: 19.0  FACILITIES PAGE 
+****************************** */
+
+/* ******************************
+:: 20.0  CONTACT PAGE 
+****************************** */
+
+
+/* ******************************
+:: 21.0  RESERVATION PAGE 
+****************************** */
+
+/* ******************************
+:: 22.0  POPUP AREA 
+****************************** */
+.modal-dialog{
+    margin-top: 100px;
+    max-width: 694px !important;
+    z-index: 99999;
+}
+
+.order-model .modal-dialog{
+    max-width: 894px !important;
+}
+
+.modal.fade .modal-dialog{
+    top: 48%;
+    transition: -webkit-transform 0.4s ease;
+    transition: transform 0.4s ease;
+    transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+.modal-content {
+    border-radius: 0px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.download-close{
+    float: right;
+    background: #9b1b44;
+    border-radius: 45px;
+    border: 1px solid transparent;
+    width: 46px;
+    height: 46px;
+    z-index: 99999;
+    position: absolute;
+    right: -6px;
+    top: -8px;
+    padding: 2px 0;
+    transition: all .3s ease;
+}
+
+.download-close:hover{
+    background: #74c0c9;
+}
+
+.download-close span {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 45px;
+    padding: 5px 16px;
+}
+
+#letter5{
+    text-align: center;
+}
+
+.letter_inner .heading {
+    margin-bottom: 0px;
+}
+
+.heading h2 {
+    font-size: 35px;
+    line-height: 24px;
+    color: #193d6f;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.heading h2:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 240px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    background: linear-gradient(to right, #9b1b44 0%, transparent 100%);
+    z-index: 99;
+}
+
+#letter6 .tab-content, #letter5 .tab-content {
+    padding: 0 50px;
+}
+
+.order-model form{
+    display: block;
+}
+
+.order-model label {
+    font-size: 14px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #999;
+    line-height: 24px;
+    position: absolute;
+    left: 34px;
+    top: -12px;
+    background: #fff;
+    padding: 0 8px;
+    z-index: 99;
+}
+
+#letter5 select, #letter5 input {
+    margin-bottom: 15px;
+    position: relative;
+    color: #193d6f;
+    resize: none;
+    font-weight: 300;
+    border: 0.5px solid #ccc;
+    font-size: 14px;
+    font-family: 'Lexend Deca', sans-serif;
+    height: 40px;
+    width: 100%;
+    padding: 0 20px;
+    border-radius: 3px;
+    z-index: 9;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+#letter5 input:focus {
+    outline: none !important;
+    border: 0.5px solid #9b1b44;
+    color: #193d6f;
+}
+
+.wrap {
+    overflow: hidden;
+    position: relative;
+}
+
+.order-model .datepicker {
+    position: relative;
+}
+
+.popup-btn a{
+    background: #9b1b44;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.popup-btn a:hover{
+    background-color: #144d5b;
+    color: #fff;
+}
+
+.popup-btn{
+    margin-top: 20px;
+}
+
+/* ******************************
+:: 23.0 TESTIMONIALS PAGE 
+****************************** */
+
+
+ /* ******************************
+:: 24.0 NEWS PAGE 
+****************************** */
+
+
+/* ******************************
+:: 25.0 SINGLE NEWS PAGE 
+****************************** */
+
+
+/* ******************************
+:: 26.0 GALLERY PAGE CSS
+****************************** */
+
+
+/* ******************************
+:: 27.0 ABOUT HOTELS PAGE
+****************************** */
