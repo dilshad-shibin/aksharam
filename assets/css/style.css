@@ -839,6 +839,7 @@ img {
 .pgm-box4{
     background: #5365b2;
     padding-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .number-img.number-img4{
@@ -857,6 +858,10 @@ img {
 
 .pgm-content4{
     flex: 0 0 50%;
+}
+
+.pgm-area{
+    padding-bottom: 0;
 }
 
 /* ******************************
@@ -1121,6 +1126,157 @@ img {
 
 .popup-btn{
     margin-top: 20px;
+}
+
+/* ******************************
+:: 04.0 ABOUT AKSHARAM PAGE 
+****************************** */
+.about-akharam{
+    position: relative;
+    padding: 0 0 100px;
+    background-color: #e6faff;
+    margin-top: 240px;
+}
+
+.head-pattern{
+    background-image: url(../img/bg/head-pattern.png);
+    height: 230px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -230px;
+}
+
+.aksharam-head{
+    margin-top: -100px;
+    margin-bottom: 40px;
+}
+
+.aksharam-head span{
+    color: #008896;
+    font-size: 40px;
+}
+
+.aksharam-head h1{
+    font-weight: 600;
+    color: #4f4f4f;
+    font-size: 50px;
+}
+
+.aksharam-text p{
+    color: #000000;
+    font-size: 20px;
+    line-height: 32px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.aksharam-text p:first-child{
+    margin-bottom: 30px;
+}
+
+.aksharam-text p:last-child{
+    margin:  0 75px;
+    margin-bottom: 70px;
+}
+
+.aksharam-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aksharam-btns .btn1{
+    margin-right: 20px;
+}
+
+.btn1 a,
+.btn2 a{
+    border: 2px solid #ea5f4a;
+    padding: 18px 50px;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+
+.btn1 a{
+    color: #ea5f4a;
+    border: 2px solid #ea5f4a;
+}
+
+.btn1 a:hover{
+    color: #fff;
+    background: #ea5f4a;
+}
+
+.btn2 a{
+    color: #fff;
+    background-color: #ea5f4a;
+}
+
+.btn2 a:hover{
+    color: #ea5f4a;
+    background: transparent;
+}
+
+.video-area-top{
+    margin-top: 100px;
+}
+
+.video-text{
+    margin-bottom: 100px;
+}
+
+.video-text h1{
+    color: #464c4e;
+    font-size: 35px;
+    font-weight: 700;
+    position: relative;
+    max-width: 355px;
+}
+
+.video-text h1::before{
+    position: absolute;
+    content: "";
+    background: #f39f2d;
+    height: 4px;
+    width: 85px;
+    left: 0;
+    bottom: -40px;
+}
+
+.video-btn a{
+    background: #f39f2d;
+    color: #fff;
+    padding: 18px 45px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: all .3s ease;
+}
+
+.video-btn a:hover{
+    color: #fff;
+    background: #144d5b;
+}
+
+.video-sec{
+    position: relative;
+}
+
+.video-sec .center-btn{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    line-height: 100px;
+    cursor: pointer;
 }
 
 /* ******************************
