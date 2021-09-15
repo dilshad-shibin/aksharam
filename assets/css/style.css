@@ -9,24 +9,11 @@
 :: 7.0 HEADER AREA CSS
 :: 8.0 WELCOME AREA CSS
 :: 9.0 ABOUT AREA CSS
-:: 10.0 FACILITIES AREA CSS
-:: 11.0 ROOMS AREA CSS
+:: 10.0 PROGRAMSS AREA CSS
+:: 11.0 ABOUT AKSHARAM CSS 
 :: 12.0 TESTIMONIALS AREA CSS
-:: 13.0 Book AREA CSS
+:: 13.0  POPUP AREA
 :: 14.0 FOOTER AREA CSS
-:: 15.0 FORM BOX AREA CSS
-:: 16.0 NEW CHANGE CSS
-:: 17.0 ABOUT PAGE 
-:: 18.0  DESTINATIONS PAGE 
-:: 19.0  FACILITIES PAGE 
-:: 20.0  CONTACT PAGE 
-:: 21.0  RESERVATION PAGE
-:: 22.0  POPUP AREA
-:: 23.0 TESTIMONIALS PAGE  
-:: 24.0 NEWS PAGE 
-:: 25.0 SINGLE NEWS PAGE
-:: 26.0 GALLERY PAGE CS
-:: 27.0 ABOUT HOTELS PAGE
 ****************************** */
 
 /* ******************************
@@ -35,8 +22,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
-
-/* font-family: 'Tangerine', cursive; */
 
 
 /* ******************************
@@ -434,7 +419,7 @@ img {
     width: 40px;
     line-height: 40px;
     border-radius: 3px;
-    background-color: #195a62;
+    background-color: #2e2a29;
     text-align: center;
     cursor: pointer;
     z-index: 500;
@@ -489,8 +474,8 @@ img {
 }
 
 .navbar .navbar-nav .nav-link-btn:hover{
-    color: #fff;
-    background-color: #144d5b;
+    color: #fff !important;
+    background-color: #2e2a29;
 }
 
 .navbar.navbar-light .navbar-nav .nav-link {
@@ -554,6 +539,10 @@ img {
     text-transform: uppercase;
 }
 
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #2e2a29;
+}
+
 .navbar-dark .navbar-nav .nav-link-btn {
     background: #fff;
     color: #333;
@@ -580,7 +569,7 @@ img {
 
 .navbar-dark.navbar-sticky-on .navbar-nav .nav-link-btn:hover{
     color: #fff !important;
-    background-color: #144d5b;
+    background-color: #2e2a29;
 }
 
 [data-theme=dark] .navbar-dark.navbar-sticky-on .navbar-nav .nav-link {
@@ -591,7 +580,7 @@ img {
 .navbar-dark.navbar-sticky-on .navbar-nav .nav-link:focus,
 .navbar-dark.navbar-sticky-on .navbar-nav .nav-link.active,
 .navbar-dark.navbar-sticky-on .navbar-nav .nav-link.current-menu-item {
-    color: #144d5b;
+    color: #c5a10f;
 }
 .navbar-dark.navbar-sticky-on .navbar-nav .nav-link-btn:focus,
 .navbar-dark.navbar-sticky-on .navbar-nav .nav-link-btn.active,
@@ -659,7 +648,7 @@ img {
 
 
 /* ******************************
-:: 11.0 PROGRAMSS AREA CSS
+:: 10.0 PROGRAMSS AREA CSS
 ****************************** */
 .pattern-pg{
     background-image: url(../img/bg/slider.png);
@@ -865,109 +854,241 @@ img {
 }
 
 /* ******************************
-:: 11.0 ROOMS AREA CSS
+:: 11.0 ABOUT AKSHARAM CSS 
 ****************************** */
-
-
-/* ******************************
-:: 12.0 TESTIMONIALS AREA CSS
-****************************** */
-
-
-
-
-/* ******************************
-:: 13.0 Book AREA CSS
-****************************** */
-
-
-/* ******************************
-:: 14.0 FOOTER AREA CSS
-****************************** */
-.footer-area {
-    background-color: #f0f0f0;
+.about-akharam{
+    position: relative;
+    padding: 0 0 100px;
+    background-color: #e6faff;
+    margin-top: 240px;
 }
 
-.copyright-area {
-    border-top: 1px solid #6767679e;
-    color: rgba(255, 255, 255, 0.8);
+.head-pattern{
+    background-image: url(../img/bg/head-pattern.png);
+    height: 230px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -230px;
 }
 
-.footer-area  .footer-items{
-    margin-top: 25px;
+.aksharam-head{
+    margin-top: -100px;
+    margin-bottom: 40px;
 }
 
-.footer-area  .footer-items ul{
+.aksharam-head span{
+    color: #008896;
+    font-size: 40px;
+}
+
+.aksharam-head h1{
+    font-weight: 600;
+    color: #4f4f4f;
+    font-size: 50px;
+}
+
+.aksharam-text p{
+    color: #000000;
+    font-size: 20px;
+    line-height: 32px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.aksharam-text p:first-child{
+    margin-bottom: 30px;
+}
+
+.aksharam-text p:last-child{
+    margin:  0 75px;
+    margin-bottom: 70px;
+}
+
+.aksharam-btns{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.footer-area  .footer-items ul li a{
-    font-size: 17px;
+.aksharam-btns .btn1{
+    margin-right: 20px;
 }
 
-.footer-area .footer-items a:hover,
-.footer-area .footer-items a:focus,
-.footer-area .copyright-area a:hover,
-.footer-area .copyright-area a:focus {
-    color: #9b1b44 !important;
+.btn1 a,
+.btn2 a{
+    border: 2px solid #ea5f4a;
+    padding: 18px 50px;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: all .3s ease;
 }
 
-.footer-area .mail-social-icons{
-    display: flex;
-    justify-content: center;
-    margin-top: 32px;
+.btn1 a{
+    color: #ea5f4a;
+    border: 2px solid #ea5f4a;
 }
 
-.footer-area .mail-social-icons a{
-    margin-right: 15px;
+.btn1 a:hover{
+    color: #fff;
+    background: #ea5f4a;
+}
+
+.btn2 a{
+    color: #fff;
+    background-color: #ea5f4a;
+}
+
+.btn2 a:hover{
+    color: #ea5f4a;
+    background: transparent;
+}
+
+.video-area-top{
+    margin-top: 100px;
+}
+
+.video-text{
+    margin-bottom: 100px;
+}
+
+.video-text h1{
+    color: #464c4e;
+    font-size: 35px;
+    font-weight: 700;
+    position: relative;
+    max-width: 355px;
+}
+
+.video-text h1::before{
+    position: absolute;
+    content: "";
+    background: #f39f2d;
+    height: 4px;
+    width: 85px;
+    left: 0;
+    bottom: -40px;
+}
+
+.video-btn a{
+    background: #f39f2d;
+    color: #fff;
+    padding: 18px 45px;
+    border-radius: 10px;
     font-size: 18px;
+    transition: all .3s ease;
 }
 
-.footer-area .mail-social-icons a:hover{
-    color: #9b1b44 !important;
+.video-btn a:hover{
+    color: #fff;
+    background: #2e2a29;
 }
 
-.footer-area .mail-social-icons ul{
-    display: flex;
+.video-sec{
+    position: relative;
 }
 
-.footer-area .mail-social-icons ul li a{
-    font-size: 30px;
+.video-sec .center-btn{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    line-height: 100px;
+    cursor: pointer;
 }
 
-.copyright-area a img{
-    max-width: 100px;
+/* ******************************
+:: 12.0 TESTIMONIALS AREA 
+****************************** */
+.testi-section{
+    background-color: #f4fdff;
+    padding: 100px 0;
+}
+
+.testi-area-top{
+    margin-top: 100px;
+}
+
+.testi-head{
+    margin-bottom: 50px;
+}
+
+.testi-head h2{
+    color: #464c4e;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.single-testi{
+    background-color: #fff;
+    /* box-shadow: 0 4px 8px 2px rgba(248, 254, 255, 0.15); */
+    box-shadow: 0 4px 8px 4px rgb(113 187 206 / 22%);
+    padding: 50px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+.single-testi .icon{
+    margin-bottom: 20px;
+}
+
+.single-testi .content p{
+    color: #000000;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 35px;
+    margin-bottom: 35px;
+    padding-right: 45px;
+}
+
+.client-details h3{
+    color: #57939e;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.client-details span{
+    color: #484848;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.owl-dots {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.owl-dots button {
+    background-color: #bbc9cc !important;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 6px;
+    position: relative;
+    outline: none;
+}
+
+.owl-dots button.active {
+    background-color: #57939e !important;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    outline: none;
 }
 
 /* ******************************
-:: 15.0 FORM BOX AREA CSS
-****************************** */
-
-/* ******************************
-:: 17.0 ABOUT PAGE 
-****************************** */
-
-/* ******************************
-:: 18.0  DESTINATIONS PAGE 
-****************************** */
-
-
-/* ******************************
-:: 19.0  FACILITIES PAGE 
-****************************** */
-
-/* ******************************
-:: 20.0  CONTACT PAGE 
-****************************** */
-
-
-/* ******************************
-:: 21.0  RESERVATION PAGE 
-****************************** */
-
-/* ******************************
-:: 22.0  POPUP AREA 
+:: 13.0  POPUP AREA 
 ****************************** */
 .modal-dialog{
     margin-top: 100px;
@@ -1129,176 +1250,114 @@ img {
 }
 
 /* ******************************
-:: 04.0 ABOUT AKSHARAM PAGE 
+:: 14.0 FOOTER AREA CSS
 ****************************** */
-.about-akharam{
-    position: relative;
-    padding: 0 0 100px;
-    background-color: #e6faff;
-    margin-top: 240px;
+.footer-area {
+    background-color: #c5a10f;
 }
 
-.head-pattern{
-    background-image: url(../img/bg/head-pattern.png);
-    height: 230px;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: -230px;
+.copyright-area {
+    border-top: 1px solid #e0cc7d;
+    color: rgba(255, 255, 255, 0.8);
 }
 
-.aksharam-head{
-    margin-top: -100px;
-    margin-bottom: 40px;
+.footer-top{
+    padding: 50px 0 35px;
 }
 
-.aksharam-head span{
-    color: #008896;
-    font-size: 40px;
+.footer-area  .footer-items-menu{
+    border-top: 1px solid #e0cc7d;
+    padding-top: 20px;
 }
 
-.aksharam-head h1{
-    font-weight: 600;
-    color: #4f4f4f;
-    font-size: 50px;
-}
-
-.aksharam-text p{
-    color: #000000;
-    font-size: 20px;
-    line-height: 32px;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.aksharam-text p:first-child{
-    margin-bottom: 30px;
-}
-
-.aksharam-text p:last-child{
-    margin:  0 75px;
-    margin-bottom: 70px;
-}
-
-.aksharam-btns{
+.footer-area  .footer-items ul{
     display: flex;
-    justify-content: center;
+}
+
+.footer-area  .footer-items ul li a{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.footer-area .footer-items a:hover,
+.footer-area .footer-items a:focus,
+.footer-area .copyright-area a:hover,
+.footer-area .copyright-area a:focus {
+    color: #2e2a29 !important;
+}
+
+.footer-area .mail-social-icons{
+    display: flex;
+    margin-top: 32px;
+    flex-direction: column;
+}
+
+.footer-area .mail-social-icons .number-box{
+    display: flex;
+    height: 50px;
     align-items: center;
 }
 
-.aksharam-btns .btn1{
-    margin-right: 20px;
+.number-box .icon{
+    border-right: 1px solid #ddd;
+    padding-right: 20px;
+    height: 50px;
+    line-height: 45px;
 }
 
-.btn1 a,
-.btn2 a{
-    border: 2px solid #ea5f4a;
-    padding: 18px 50px;
-    font-size: 16px;
-    border-radius: 10px;
-    transition: all .3s ease;
+.number-box .number{
+    padding-left: 20px;
 }
 
-.btn1 a{
-    color: #ea5f4a;
-    border: 2px solid #ea5f4a;
-}
-
-.btn1 a:hover{
+.number-box .number a{
     color: #fff;
-    background: #ea5f4a;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
 }
 
-.btn2 a{
-    color: #fff;
-    background-color: #ea5f4a;
+.footer-area .mail-social-icons .social{
+    display: flex;
 }
 
-.btn2 a:hover{
-    color: #ea5f4a;
-    background: transparent;
-}
-
-.video-area-top{
-    margin-top: 100px;
-}
-
-.video-text{
-    margin-bottom: 100px;
-}
-
-.video-text h1{
-    color: #464c4e;
-    font-size: 35px;
-    font-weight: 700;
-    position: relative;
-    max-width: 355px;
-}
-
-.video-text h1::before{
-    position: absolute;
-    content: "";
-    background: #f39f2d;
-    height: 4px;
-    width: 85px;
-    left: 0;
-    bottom: -40px;
-}
-
-.video-btn a{
-    background: #f39f2d;
-    color: #fff;
-    padding: 18px 45px;
-    border-radius: 10px;
+.footer-area .mail-social-icons .social a.mail{
     font-size: 18px;
-    transition: all .3s ease;
+    margin-right: 40px;
 }
 
-.video-btn a:hover{
+.footer-area .mail-social-icons a:hover{
+    color: #2e2a29 !important;
+}
+
+.footer-area .mail-social-icons ul{
+    display: flex;
+}
+
+.footer-area .mail-social-icons ul li a{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.copyright-area a img{
+    max-width: 100px;
+}
+
+.footer-contact{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px
+}
+
+.footer-contact .contact h3{ 
     color: #fff;
-    background: #144d5b;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
 }
 
-.video-sec{
-    position: relative;
+.footer-contact .contact p{
+    color: #ffffffd6;
+    font-size: 17px;
+    max-width: 350px;
 }
 
-.video-sec .center-btn{
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background: #fff;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    line-height: 100px;
-    cursor: pointer;
-}
-
-/* ******************************
-:: 23.0 TESTIMONIALS PAGE 
-****************************** */
-
-
- /* ******************************
-:: 24.0 NEWS PAGE 
-****************************** */
-
-
-/* ******************************
-:: 25.0 SINGLE NEWS PAGE 
-****************************** */
-
-
-/* ******************************
-:: 26.0 GALLERY PAGE CSS
-****************************** */
-
-
-/* ******************************
-:: 27.0 ABOUT HOTELS PAGE
-****************************** */

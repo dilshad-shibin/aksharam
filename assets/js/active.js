@@ -98,55 +98,7 @@
     // :: 8.0 Client SLIDER ACTIVE CODE
     $('.testi-box-slider.owl-carousel').owlCarousel({
         loop: true,
-        margin: 0,
-        nav: false,
-        dots: true,
-        smartSpeed: 2000,
-        autoplay: false,
-        autoplayTimeout: 5000,
-        responsive: {
-            0: {
-                items: 1
-            },
-            576: {
-                items: 1
-            },
-            768: {
-                items: 1
-            },
-            992: {
-                items: 1
-            }
-        }
-    });
-
-    $('.room-slider.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        dots: false,
-        smartSpeed: 2000,
-        autoplay: false,
-        autoplayTimeout: 5000,
-        responsive: {
-            0: {
-                items: 1
-            },
-            576: {
-                items: 1
-            },
-            768: {
-                items: 1
-            },
-            992: {
-                items: 1
-            }
-        }
-    });
-
-    $('.client-slider.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 0,
+        margin: 100,
         nav: false,
         dots: true,
         smartSpeed: 2000,
@@ -154,45 +106,20 @@
         autoplayTimeout: 5000,
         responsive: {
             0: {
-                items: 1,
-                nav: false
+                items: 1
             },
             576: {
                 items: 1
             },
             768: {
-                items: 3
+                items: 1
             },
             992: {
-                items: 3,
-                dots: true
-            }
-        }
-    });
-
-    $('.news-slider.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 30,
-        nav: true,
-        dots: false,
-        smartSpeed: 2000,
-        autoplay: true,
-        autoplayTimeout: 5000,
-        responsive: {
-            0: {
-                items: 1
-            },
-            576: {
-                items: 1
-            },
-            768: {
                 items: 2
-            },
-            992: {
-                items: 3
             }
         }
     });
+
 
     // :: 14.0 FANCYBOX IMAGE GALLERY
     $('[data-fancybox="images"]').fancybox({
